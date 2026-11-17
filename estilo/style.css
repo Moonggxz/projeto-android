@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format(opentype);
+    src: url('../fontes/idroid.otf') format(opentype);
     font-weight: normal;
 
 }
@@ -51,14 +51,14 @@ nav {
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.486);
 }
 
-nav > a {
+nav>a {
     color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav > a:hover{
+nav>a:hover {
     background-color: var(--cor3);
     border-radius: 5px;
     color: var(--cor5);
@@ -128,7 +128,7 @@ main strong {
     font-weight: bold;
 }
 
-main a{
+main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor1);
@@ -137,7 +137,7 @@ main a{
     border-radius: 10px;
 }
 
-main a:hover{
+main a:hover {
     text-decoration: underline;
     color: var(--cor5);
     background-color: var(--cor1);
@@ -163,7 +163,7 @@ main img.pequena {
     position: relative;
 }
 
-div.video > iframe {
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -177,7 +177,7 @@ aside {
     border-radius: 10px;
 }
 
-aside > h3 {
+aside>h3 {
     background-color: var(--cor4);
     color: var(--cor_branca);
     padding: 5px;
@@ -198,11 +198,11 @@ aside abbr:hover {
     text-decoration: none;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: '\2611\00A0\00A0';
     list-style-position: inside;
     columns: 2;
-    
+
 }
 
 footer {
@@ -212,7 +212,8 @@ footer {
     font-size: 0.8em;
     padding: 5px;
 }
-footer > p > a {
+
+footer>p>a {
     text-decoration: none;
     color: var(--cor_branca);
     font-weight: bolder;
